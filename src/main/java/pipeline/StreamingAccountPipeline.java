@@ -42,7 +42,7 @@ public class StreamingAccountPipeline {
         String getInputTopic();
         void setInputTopic(String inputTopic);
 
-        @Description("Input topic description")
+        @Description("Input topic subcription")
         String getInputSub();
         void setInputSub(String inputSub);
 
@@ -54,7 +54,7 @@ public class StreamingAccountPipeline {
         String getOutputDltTopic();
         void setOutputDltTopic(String inputTopic);
 
-        @Description("output DLQ topic description")
+        @Description("output DLQ topic subcription")
         String getOutputDltSub();
         void setOutputDltSub(String inputSub);
 
