@@ -64,12 +64,10 @@ public class StreamingAccountPipeline {
 
         @Description("I use fixed window in this case. Window duration length, in minutes")
         Integer getWindowDuration();
-
         void setWindowDuration(Integer windowDuration);
 
         @Description("Window allowed lateness, in days")
         Integer getAllowedLateness();
-
         void setAllowedLateness(Integer allowedLateness);
     }
 
